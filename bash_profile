@@ -11,4 +11,4 @@ if [ -f $Home/.bashrc ]; then
 	source "$Home/.bashrc"
 fi
 set -o vi
-
+export PATH=$HOME/.julia/bin:$PATH
